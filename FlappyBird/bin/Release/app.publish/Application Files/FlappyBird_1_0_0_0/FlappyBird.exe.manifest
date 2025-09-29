@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FlappyBird.exe" version="1.0.0.0" publicKeyToken="66b7844be6023ede" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FlappyBird" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FlappyBird.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlappyBird.exe" size="30640">
+      <assemblyIdentity name="FlappyBird" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yklWR5hDinC9LAM0U7meSFeI2Er+2nrHAkM6SI423BI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FlappyBird.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=KNOVER\Knover" issuerKeyHash="7db06e760b0057a7b959af98845005dc3cda2fe6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kLawCjCadqVSP+9XQWYPrA03FGgJplNZefzZ/40LGKE=</DigestValue></Reference></SignedInfo><SignatureValue>lYyDO3NAf481MJIDPOisoVDkLP1CE7jevsm1icidgRuFCTtHzt07j3vzbDOrb78WIHiKMEsIRrh9Ee1NxwP1u4IGedAieuT2UDN4McMi4pXNx6RWpkzZyEMiSwrEeyPfOcPvN9qPSq7UBiuFAblocJKkGaPTiamntXJ8po6ziI4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3BXKe5Y4dRxJoeMf+psTFKC7rr4mavYAnZ0j3fVIxvpCNs6dimykgzbpS51BlMva9N0LiU5jLHEhv9Af+is0EiTsWCx66aThFbZBrNjogFpS9ooyPXg+UxgfWVr21Nea8gkghCdKQ29O/MUi4//iHuJrfnddO/oooLh8UkWgNNk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a1180b8dffd9fc795953a6096814370dac0f664157ef3f52a5769a300ab0b690" Description="" Url=""><as:assemblyIdentity name="FlappyBird.exe" version="1.0.0.0" publicKeyToken="66b7844be6023ede" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KNOVER\Knover</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/NJftSQdrop///MroaUEowAqSnpK1vnp5NPL3wHlREo=</DigestValue></Reference></SignedInfo><SignatureValue>lnyOrBCu8JZghP8AnuDd1IwQofZHpGq8eyHoRdFJXkTe8S4hVw7nPkZC6qRj+pwwt17iajQHa9ORNG8eiklb5TtGLsFio3weVZaBz+rzwT2uyTRh55MAT6ohwk5FxSDbojEegDBCmPqlf/ACApqZrLrhsL6QxNUXEMiksCOnfSQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3BXKe5Y4dRxJoeMf+psTFKC7rr4mavYAnZ0j3fVIxvpCNs6dimykgzbpS51BlMva9N0LiU5jLHEhv9Af+is0EiTsWCx66aThFbZBrNjogFpS9ooyPXg+UxgfWVr21Nea8gkghCdKQ29O/MUi4//iHuJrfnddO/oooLh8UkWgNNk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQLRetzbOpM55P+JvdFM3OnzANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoASwBOAE8AVgBFAFIAXABLAG4AbwB2AGUAcjAeFw0yNTA5MjkxOTEzMDRaFw0yNjA5MzAwMTEzMDRaMCUxIzAhBgNVBAMeGgBLAE4ATwBWAEUAUgBcAEsAbgBvAHYAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcFcp7ljh1HEmh4x/6mxMUoLuuviZq9gCdnSPd9UjG+kI2zp2KbKSDNulLnUGUy9r03QuJTmMscSG/0B/6KzQSJOxYLHrppOEVtkGs2OiAWlL2ijI9eD5TGB9ZWvbU15ryCSCEJ0pDb078xSLj/+Ie4mt+d107+iiguHxSRaA02QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBADSQCDdbW50bmOJhtMytAm4CV/mLUlRKFZEyYx6OMPlLF4pxSqGE+azVRVFvJu6yYgIYsjSbYZxEQ+eOIkZmCjzxLe2zv17CTAyqhHC0QV+1G8mirVUgBpq5z8LfdcMIWr396jtc+O5mx8lyNZB6X1kzAsYnKJg3sdiTCGj9EpXa</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,15 @@
+C:\Users\Knover\source\repos\FlappyBird\bin\Release\FlappyBird.exe.config
+C:\Users\Knover\source\repos\FlappyBird\bin\Release\FlappyBird.exe
+C:\Users\Knover\source\repos\FlappyBird\bin\Release\FlappyBird.pdb
+C:\Users\Knover\source\repos\FlappyBird\obj\Release\FlappyBird.csproj.AssemblyReference.cache
+C:\Users\Knover\source\repos\FlappyBird\obj\Release\FlappyBird.Form1.resources
+C:\Users\Knover\source\repos\FlappyBird\obj\Release\FlappyBird.Properties.Resources.resources
+C:\Users\Knover\source\repos\FlappyBird\obj\Release\FlappyBird.csproj.GenerateResource.cache
+C:\Users\Knover\source\repos\FlappyBird\obj\Release\FlappyBird.csproj.CoreCompileInputs.cache
+C:\Users\Knover\source\repos\FlappyBird\obj\Release\FlappyBird.exe
+C:\Users\Knover\source\repos\FlappyBird\obj\Release\FlappyBird.pdb
+C:\Users\Knover\source\repos\FlappyBird\obj\Release\FlappyBird.exe.config
+C:\Users\Knover\source\repos\FlappyBird\bin\Release\FlappyBird.exe.manifest
+C:\Users\Knover\source\repos\FlappyBird\bin\Release\FlappyBird.application
+C:\Users\Knover\source\repos\FlappyBird\obj\Release\FlappyBird.exe.manifest
+C:\Users\Knover\source\repos\FlappyBird\obj\Release\FlappyBird.application
